@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+ Danielle LaMorte -- <role> -- <twitter>
 
 # THANKS
 
