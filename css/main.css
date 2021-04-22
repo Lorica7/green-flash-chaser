@@ -120,7 +120,6 @@ body {
 }
 
 .wrapper {
-    /* set the display to flex and use the justify-content & align-items properties to center all child elements on the page */
     margin: 0;
     height: 100%;
     width: 100%;
@@ -129,8 +128,7 @@ body {
     align-items: center;
 }
 
-#content {
-    /* set the display to flex and use the justify-content & align-items properties to center the text within the div*/
+.content {
     background: #222;
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
@@ -140,14 +138,15 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
+    margin: 50px;
     width: 300px;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#content p span {
+.content p span {
     font-family: 'Lora', sans-serif;
 }
 
@@ -239,6 +238,12 @@ body {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+@media(max-width: 450px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
