@@ -115,6 +115,7 @@ html {
     height: 100%;
     width: 100%;
     overflow: auto;
+    margin: 0px;
 }
 
 body {
@@ -123,14 +124,14 @@ body {
     font-size: 1.25em;
     height: 100%;
     color: #fff;
+    margin: 0px;
 }
 
 header {
     display: flex;
-    align-content: center;
-    justify-content: center;
     background: rgba(0, 0, 0, 0.3);
     width: 100%;
+    margin: 0px;
 }
 
 footer {
@@ -164,6 +165,9 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+
+/*  summer sky #286DA8 */
 
 .content {
     background: rgba(0, 0, 0, 0.3);
@@ -312,6 +316,12 @@ main {
     .flex-container {
         flex-direction: column;
         align-content: space-around;
+    }
+    .flex-items {
+        width: 75%;
+    }
+    #footer {
+        width: 100%;
     }
 }
 
