@@ -119,6 +119,21 @@ body {
     height: 100%;
 }
 
+h1 {
+    font-family: 'Poiret One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
     margin: 0;
     height: 100%;
@@ -147,7 +162,7 @@ body {
 }
 
 .content p span {
-    font-family: 'Lora', sans-serif;
+    color: #94bcf2;
 }
 
 
